@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Spinner Animation</title>
     <style>
       body {
         background-color: black;
@@ -20,7 +20,6 @@
         border-radius: 50%;
         animation: right5231 0.9s linear infinite;
       }
-
       .loader::before,
       .loader::after {
         content: "";
@@ -34,7 +33,6 @@
         border-radius: 50%;
         animation: left036 0.9s linear infinite;
       }
-
       .loader::after {
         width: 90px;
         height: 90px;
@@ -44,22 +42,19 @@
         border-top: 5px solid #ff086e;
         animation: none;
       }
-
+      // Adding Animations
       @keyframes right5231 {
         from {
           transform: rotate(0deg);
         }
-
         to {
           transform: rotate(360deg);
         }
       }
-
       @keyframes left036 {
         from {
           transform: rotate(720deg);
         }
-
         to {
           transform: rotate(0deg);
         }
